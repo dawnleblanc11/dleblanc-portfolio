@@ -55,48 +55,94 @@ p {
 }
 /* Header and Nav Style End*/
 
-figure .hero img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+/* Image Section with Subtitle Style Start */
+.hero {
+    display: flex;
+    padding: 20px 35px 100px 35px;
+    position: relative;
+    text-align:center;
+    justify-content: space-between;
+    flex-wrap:wrap; 
 }
 
-/* portfolio projects start */
-
-.project-large {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding: 50px;
-    height: 300px;
-    width: 75%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right:16px;
+    color: orange;
 }
-.project-small {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding: 50px;
-    height: 300px;
-    width: 25%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
+/* Image Section with Subtitle Style End  */
+
+/* About me/ Avatar/ Text Start Style Start */
+
+.aboutme {
+    display: flex;
+    padding: 20px 35px 100px 35px;
+    background-color: #2a607c ;
     color: #ffffff;
 }
 
-.project-small img {
+/* About me/ Avatar/ Text Start Stlye End */
+
+/* Featured Project Category Style Start */
+.largeproject {
+    display: flex;
+    padding: 20px 35px 100px 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+    color: #ffffff;
+}
+/* Featured Project Category Style End */
+
+/* Smaller Project Listings style Start */
+
+.smallproject {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 150px;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+.smallproject img {
     height: auto;
     width: 25%;
     margin-bottom: 20px;
     max-height: 200px;
 }
 
-.project-small h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 36px;
+.smallproject .smallproject1 {
+    background-color: rgba(255, 166, 0, 0.623);
+    border: 2px solid white;
+    flex-basis: 23%;
 }
 
-/* portfolio projects end */
+.smallproject .smallproject2 {
+    background-color: rgb(209, 145, 27);
+    border: 2px solid white;
+    flex-basis: 23%;
+}
+.smallproject .smallproject3 {
+    background-color: rgba(255, 166, 0, 0.356);
+    border: 2px solid white;
+    flex-basis: 23%;
+}
+
+.smallproject .smallproject4 {
+    background-color: rgb(248, 202, 116);
+    border: 2px solid white;
+    flex-basis: 23%;
+}
+/* Smaller Project Listings style Start */
+
+/* Contact Me Style Start */
+footer {
+    display: flex;
+    padding: 20px 35px;
+    background-color: #2a607c;
+    color: #ffffff;  
+}
+/* Contact Me Style End */
