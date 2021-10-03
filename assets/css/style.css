@@ -56,19 +56,23 @@ p {
 /* Header and Nav Style End*/
 
 /* Image Section with Subtitle Style Start */
+/* note to self work on font color here */
 .hero {
     display: flex;
-    padding: 20px 35px 100px 35px;
     position: relative;
-    text-align:center;
-    justify-content: space-between;
     flex-wrap:wrap; 
 }
 
-.bottom-right {
+.subtitle {
     position: absolute;
-    bottom: 8px;
-    right:16px;
+    margin: 0 auto;
+    top:40%;
+    right:0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
     color: orange;
 }
 /* Image Section with Subtitle Style End  */
