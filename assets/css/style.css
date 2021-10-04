@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
 
@@ -27,8 +27,8 @@ header h1 {
 
 header nav ul{
     display: flex;
-    flex-wrap:wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     padding-top: 25px;
@@ -60,19 +60,14 @@ p {
 .hero {
     display: flex;
     position: relative;
-    flex-wrap:wrap; 
 }
 
 .subtitle {
     position: absolute;
-    margin: 0 auto;
-    top:40%;
-    right:0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
     font-weight: bold;
     font-size: larger;
+    align-self: center;
+    margin-left: 50px;
     color: orange;
 }
 /* Image Section with Subtitle Style End  */
@@ -83,9 +78,11 @@ p {
     background-color: seashell;
     display: flex;
 }
+
 .titlecolumn {
     flex: 0 0 150px;
 }
+
 .titlecolumn h1 {
     font-weight: bolder;
     color: #2a607c;
@@ -93,47 +90,24 @@ p {
 }
 
 .bodycolumn {
-    background-color: lawngreen;
     border-left: 5px solid #2a607c;
-    padding: 0;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+    padding: 20px 35px 100px 35px;
+    color: #2a607c;
+
 }
+/* Main Page Styling End Used in Multiple Sections on main page*/
 
 /* About me/ Avatar/ Text Start Style Start */
-
-.aboutme {
-    display: flex;
-    padding: 20px 35px 100px 35px;
-    background-color: #2a607c;
-    color: #ffffff;
-    border-right: solid white;
+.bodyavatar {
+/* if time- create curved edges */
 }
-.aboutmetitle {
-    flex-basis: 40%;
-}
-
-.aboutmeavatar {
-    flex: 0 0 100px;
-    margin-top:5%;
-}
-.aboutmeavatar img {
-    height:auto;
-    width: 25%;
-}
-.aboutmetext {
-    flex-basis: 20%;
-    margin-top:5%;
-}
-
 /* About me/ Avatar/ Text Start Stlye End */
 
 /* Featured Project Category Style Start */
-.largeproject {
-    display: flex;
-    padding: 20px 35px 100px 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: orange;
-    color: #ffffff;
-}
+
 /* Featured Project Category Style End */
 
 /* Smaller Project Listings style Start */
@@ -160,25 +134,29 @@ p {
     background-color: rgba(255, 166, 0, 0.623);
     border: 2px solid white;
     flex-basis: 23%;
+    order: 1;
 }
 
 .smallproject .smallproject2 {
     background-color: rgb(209, 145, 27);
     border: 2px solid white;
     flex-basis: 23%;
+    order: 2;
 }
 .smallproject .smallproject3 {
     background-color: rgba(255, 166, 0, 0.356);
     border: 2px solid white;
     flex-basis: 23%;
+    order: 3;
 }
 
 .smallproject .smallproject4 {
     background-color: rgb(248, 202, 116);
     border: 2px solid white;
     flex-basis: 23%;
+    order: 4;
 }
-/* Smaller Project Listings style Start */
+/* Smaller Project Listings Style End */
 
 /* Get In Touch Style Start */
 
