@@ -56,7 +56,7 @@ p {
 /* Header and Nav Style End*/
 
 /* Image Section with Subtitle Style Start */
-/* note to self work on font color here */
+/* remember work on font color */
 .hero {
     display: flex;
     position: relative;
@@ -77,13 +77,55 @@ p {
 }
 /* Image Section with Subtitle Style End  */
 
+/* Main Page Styling Start */
+.main-page-wrapper {
+    margin: 0;
+    background-color: seashell;
+    display: flex;
+}
+.titlecolumn {
+    flex: 0 0 150px;
+}
+.titlecolumn h1 {
+    font-weight: bolder;
+    color: #2a607c;
+}
+
+bodycolumn {
+    background-color: lawngreen;
+    border-left: 5px solid #2a607c;
+    padding: 0;
+    width: 300px;
+}
+
 /* About me/ Avatar/ Text Start Style Start */
 
 .aboutme {
     display: flex;
     padding: 20px 35px 100px 35px;
-    background-color: #2a607c ;
+    background-color: #2a607c;
     color: #ffffff;
+    border-right: solid white;
+}
+.aboutmetitle {
+    flex-basis: 40%;
+}
+
+.aboutmetitle h1 {
+    font-size:large
+}
+
+.aboutmeavatar {
+    flex: 0 0 100px;
+    margin-top:5%;
+}
+.aboutmeavatar img {
+    height:auto;
+    width: 25%;
+}
+.aboutmetext {
+    flex-basis: 20%;
+    margin-top:5%;
 }
 
 /* About me/ Avatar/ Text Start Stlye End */
