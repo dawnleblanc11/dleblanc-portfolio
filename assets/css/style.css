@@ -77,7 +77,7 @@ p {
 }
 /* Image Section with Subtitle Style End  */
 
-/* Main Page Styling Start */
+/* Main Page Styling Start Used in Multiple Sections on main page*/
 .main-page-wrapper {
     margin: 0;
     background-color: seashell;
@@ -89,13 +89,13 @@ p {
 .titlecolumn h1 {
     font-weight: bolder;
     color: #2a607c;
+    padding: 20px 35px 100px 35px;
 }
 
-bodycolumn {
+.bodycolumn {
     background-color: lawngreen;
     border-left: 5px solid #2a607c;
     padding: 0;
-    width: 300px;
 }
 
 /* About me/ Avatar/ Text Start Style Start */
@@ -109,10 +109,6 @@ bodycolumn {
 }
 .aboutmetitle {
     flex-basis: 40%;
-}
-
-.aboutmetitle h1 {
-    font-size:large
 }
 
 .aboutmeavatar {
@@ -184,11 +180,6 @@ bodycolumn {
 }
 /* Smaller Project Listings style Start */
 
-/* Contact Me Style Start */
-footer {
-    display: flex;
-    padding: 20px 35px;
-    background-color: #2a607c;
-    color: #ffffff;  
-}
-/* Contact Me Style End */
+/* Get In Touch Style Start */
+
+/* Get in Touch Style End */
