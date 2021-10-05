@@ -45,7 +45,7 @@ nav ul li {
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -159,5 +159,8 @@ p {
 /* Smaller Project Listings Style End */
 
 /* Get In Touch Style Start */
-
+footer li{
+    color:#2a607c;
+    text-decoration-line: underline;
+}
 /* Get in Touch Style End */
