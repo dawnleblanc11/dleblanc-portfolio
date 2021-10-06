@@ -1,5 +1,5 @@
 *{
-    box-sizing: :border-box;
+    box-sizing: border-box;
     margin:0;
     padding:0;
 }
@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     position:-webkit-sticky;
     position: sticky;
     padding: 20px 35px;
@@ -64,11 +64,11 @@ p {
 
 .subtitle {
     position: absolute;
-    font-weight: bold;
+    font-weight:900;
     font-size: larger;
     align-self: center;
     margin-left: 50px;
-    color: orange;
+    color: rgb(190, 156, 98);
 }
 /* Image Section with Subtitle Style End  */
 
@@ -101,8 +101,10 @@ p {
 /* Main Page Styling End Used in Multiple Sections on main page*/
 
 /* About me/ Avatar/ Text Start Style Start */
-.bodyavatar {
-/* if time- create curved edges */
+.bodyavatar img{
+    border-radius: 3rem; /*created curved edges*/
+    border:2px solid #2a607c;
+    margin: 10px 10px 10px 10px;
 }
 /* About me/ Avatar/ Text Start Stlye End */
 
