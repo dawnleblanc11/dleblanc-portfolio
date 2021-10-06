@@ -18,7 +18,7 @@ header {
     position: sticky;
     padding: 20px 35px;
     background-color: #2a607c;
-    color: #ffffff;
+    color: seashell;
 }
 
 header h1 {
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 header a {
-    color: #ffffff;
+    color: seashell;
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ p {
 }
 
 .titlecolumn {
-    flex: 0 0 150px;
+    flex: 0 0 175px;
 }
 
 .titlecolumn h1 {
@@ -109,7 +109,29 @@ p {
 /* About me/ Avatar/ Text Start Stlye End */
 
 /* Featured Project Category Style Start */
+.largeproject {
+    display: flex;
+    min-height: 300px;
+    flex-wrap: wrap;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#2a607c;
+}
 
+.largeproject img {
+    height: auto;
+    width: 25%;
+    margin-bottom: 20px;
+    max-height: 200px;
+}
+
+.largeproject .largeproject1 {
+    background-color: rgba(255, 166, 0, 0.623);
+    border-radius: 1rem; /*created curved edges*/
+    border:2px solid #2a607c;
+    flex-basis: 100%;
+    order: 1;
+}
 /* Featured Project Category Style End */
 
 /* Smaller Project Listings style Start */
@@ -176,12 +198,12 @@ p {
     visibility: hidden;
     width: 120px;
     background-color:#2a607c;
-    color: #fff;
+    color:seashell;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
    
-    /* Position the Project Detail Text */
+    /* Position the Project Detail Text to Bottom */
     position: absolute;
     z-index: 1;
     width: 120px;
