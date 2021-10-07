@@ -37,7 +37,7 @@ All verification of usage was completed on a Google Chrome browser.
 1.6 Added Section for Portfolio and Get In Touch
 1.7 Inital READme Draft
 1.8 Bottom Hover for Project Details
-1.9 Small Project Phot Add
+1.9 Small Project Photo Add
 1.10 Featured product Section Add
 1.12 Link Function to Nav Bar
 
