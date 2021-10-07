@@ -3,6 +3,12 @@
     margin:0;
     padding:0;
 }
+/*CSS variables for color palette*/
+:root {
+    --base-color: seashell;
+    --accent-color: #2a607c;
+    --highlight-color:  rgb(190, 156, 98); /* remember work on font color */
+}
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
@@ -16,8 +22,8 @@ header {
     position:-webkit-sticky;
     position: sticky;
     padding: 20px 35px;
-    background-color: #2a607c;
-    color: seashell;
+    background-color: var(--accent-color);
+    color:var(--base-color);
 }
 
 header h1 {
@@ -45,7 +51,7 @@ nav ul li {
 }
 
 header a {
-    color: seashell;
+    color: var(--base-color);
     text-decoration: none;
 }
 
@@ -55,7 +61,7 @@ p {
 /* Header and Nav Style End*/
 
 /* Image Section with Subtitle Style Start */
-/* remember work on font color */
+
 .hero {
     display: flex;
     position: relative;
@@ -67,7 +73,7 @@ p {
     font-size: larger;
     align-self: center;
     margin-left: 50px;
-    color: rgb(190, 156, 98);
+    color: var(--highlight-color);
 }
 /* Image Section with Subtitle Style End  */
 
@@ -84,17 +90,17 @@ p {
 
 .titlecolumn h1 {
     font-weight: bolder;
-    color: #2a607c;
+    color: var(--accent-color);
     padding: 20px 35px 100px 35px;
 }
 
 .bodycolumn {
-    border-left: 5px solid #2a607c;
+    border-left: 5px solid var(--accent-color);
     flex-wrap: wrap;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 20px;
     padding: 20px 35px 100px 35px;
-    color: #2a607c;
+    color: var(--accent-color);
 
 }
 /* Main Page Styling End Used in Multiple Sections on main page*/
@@ -102,7 +108,7 @@ p {
 /* About me/ Avatar/ Text Start Style Start */
 .bodyavatar img{
     border-radius: 3rem; /*created curved edges*/
-    border:2px solid #2a607c;
+    border:2px solid var(--accent-color);
     margin: 10px 10px 10px 10px;
     opacity: 0.7; /*added opacity to soften avatar image*/
 }
@@ -115,7 +121,7 @@ p {
     flex-wrap: wrap;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#2a607c;
+    color: var(--accent-color);
 }
 
 .largeproject img {
@@ -130,9 +136,9 @@ p {
     margin-left: 100px;
 }
 .largeproject .largeproject1 {
-    background-color: rgba(255, 166, 0, 0.623);
+    background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
-    border:2px solid #2a607c;
+    border:2px solid var(--accent-color);
     flex-basis: 100%;
     order: 1;
 }
@@ -141,14 +147,11 @@ p {
 /* Smaller Project Listings style Start */
 
 .smallproject {
+    width:100%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    min-height: 150px;
+    justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#2a607c;
 }
 
 .smallproject img {
@@ -159,33 +162,37 @@ p {
     }
 
 .smallproject .smallproject1 {
-    background-color: rgba(255, 166, 0, 0.623);
+    background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
-    border:2px solid #2a607c;
-    flex-basis: 23%;
+    border:2px solid var(--accent-color);
+    margin: 10px;
+    flex: 1;
     order: 1;
 }
 
 .smallproject .smallproject2 {
-    background-color: rgb(209, 145, 27);
+    background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
-    border:2px solid #2a607c;
-    flex-basis: 23%;
+    border:2px solid var(--accent-color);
+    flex: 1;
+    margin: 10px;
     order: 2;
 }
 .smallproject .smallproject3 {
-    background-color: rgba(255, 166, 0, 0.356);
+    background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
-    border:2px solid #2a607c;
-    flex-basis: 23%;
+    border:2px solid var(--accent-color);
+    flex: 1;
+    margin: 10px;
     order: 3;
 }
 
 .smallproject .smallproject4 {
-    background-color: rgb(248, 202, 116);
+    background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
-    border:2px solid #2a607c;
-    flex-basis: 23%;
+    border:2px solid var(--accent-color);
+    flex: 1;
+    margin: 10px;
     order: 4;
 }
 /* Smaller Project Listings Style End */
@@ -201,7 +208,7 @@ p {
   .projectdetailbox .projectdetailtext {
     visibility: hidden;
     width: 120px;
-    background-color:#2a607c;
+    background-color:var(--highlight-color);
     color:seashell;
     text-align: center;
     padding: 5px 0;
@@ -258,4 +265,7 @@ footer li{
  }
  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+      .smallproject1 .smallproject2 .smallproject3 .smallproject4 {
+        flex-basis: 20%;
+    }
 }
