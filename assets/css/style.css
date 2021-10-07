@@ -177,7 +177,7 @@ p {
     border-radius: 1rem; /*created curved edges*/
     border:2px solid var(--accent-color);
     margin: 10px;
-    flex: 1;
+    flex: 2;
 }
 
 
