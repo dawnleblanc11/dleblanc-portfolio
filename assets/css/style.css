@@ -115,7 +115,7 @@ p {
 /* About me/ Avatar/ Text Start Stlye End */
 
 /* Featured Project Category Style Start */
-.largeproject {
+.largeprojects {
     display: flex;
     min-height: 300px;
     flex-wrap: wrap;
@@ -131,20 +131,21 @@ p {
     max-height: 200px;
     border-radius: 1rem; /*created curved edges*/
 }
-.largeproject .largeproject1 h2 {
+
+.largeproject h2 {
     font-size: 50px;
     margin-left: 100px;
 }
-.largeproject .largeproject1 {
+
+.largeproject {
     background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
     border:2px solid var(--accent-color);
-    flex-basis: 100%;
-    order: 1;
+    flex: 3;
 }
 /* Featured Project Category Style End */
 
-/* Smaller Project Listings style Start */
+/* Smaller Project Listings Style Start */
 
 .smallprojects {
     width:100%;
@@ -167,7 +168,6 @@ p {
     border:2px solid var(--accent-color);
     margin: 10px;
     flex: 1;
-    order: 1;
 }
 
 
@@ -207,7 +207,7 @@ p {
   }
 /* Get In Touch Style Start */
 footer li{
-    color:#2a607c;
+    color:var(--accent-color);
     text-decoration-line: underline;
 }
 /* Get in Touch Style End */
