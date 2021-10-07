@@ -146,7 +146,7 @@ p {
 
 /* Smaller Project Listings style Start */
 
-.smallproject {
+.smallprojects {
     width:100%;
     margin: 0 auto;
     display: flex;
@@ -161,7 +161,7 @@ p {
     max-height: 200px;
     }
 
-.smallproject .smallproject1 {
+.smallproject {
     background-color: var(--highlight-color);
     border-radius: 1rem; /*created curved edges*/
     border:2px solid var(--accent-color);
@@ -170,31 +170,7 @@ p {
     order: 1;
 }
 
-.smallproject .smallproject2 {
-    background-color: var(--highlight-color);
-    border-radius: 1rem; /*created curved edges*/
-    border:2px solid var(--accent-color);
-    flex: 1;
-    margin: 10px;
-    order: 2;
-}
-.smallproject .smallproject3 {
-    background-color: var(--highlight-color);
-    border-radius: 1rem; /*created curved edges*/
-    border:2px solid var(--accent-color);
-    flex: 1;
-    margin: 10px;
-    order: 3;
-}
 
-.smallproject .smallproject4 {
-    background-color: var(--highlight-color);
-    border-radius: 1rem; /*created curved edges*/
-    border:2px solid var(--accent-color);
-    flex: 1;
-    margin: 10px;
-    order: 4;
-}
 /* Smaller Project Listings Style End */
 
 /* Hover text with project details from small and large projects */
@@ -265,7 +241,7 @@ footer li{
  }
  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-      .smallproject1 .smallproject2 .smallproject3 .smallproject4 {
+      .smallproject {
         flex-basis: 20%;
     }
 }
