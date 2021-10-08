@@ -126,7 +126,7 @@ p {
 
 .largeproject img {
     height: auto;
-    width: 25%;
+    width: = 30%;
     margin: 20px 20px 20px 20px;
     max-height: 200px;
     border-radius: 1rem; /*created curved edges*/
@@ -163,6 +163,7 @@ p {
     width: 25%;
     margin: 20px 20px 20px 20px;
     max-height: 200px;
+    border-radius: 1rem; /*created curved edges*/
     }
     
 .smallproject h2 {
@@ -226,12 +227,14 @@ footer li{
 @media screen and (max-width: 980px) {
   .main-page-wrapper {
       background-color: green;
+    /* placeholder if needed looks ok now */
   }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     .main-page-wrapper { 
         background-color: orange;
+        /* add projects in one line */
     }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
