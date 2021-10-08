@@ -50,7 +50,7 @@ nav ul li {
     margin-left: 25px;
 }
 
-header a {
+header nav ul li a {
     color: var(--base-color);
     text-decoration: none;
 }
@@ -236,7 +236,7 @@ footer ul li{
     display: inline;
     margin: 20px;
 }
-a:link, a:visited {
+footer ul li a:link, footer ul li a:visited {
     color: var(--accent-color);
     padding: 15px 25px;
     text-align: center;
@@ -244,7 +244,7 @@ a:link, a:visited {
     display: inline-block;
   }
   
-  a:hover, a:active {
+  footer ul li a:hover, footer ul li a:active {
     background-color:var(--highlight-color);
   }
 
