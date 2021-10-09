@@ -35,11 +35,30 @@ All verification of usage was completed on a Google Chrome browser.
 1.4 Added Subtitle Text to Image
 1.5 About Me Section Outline
 1.6 Added Section for Portfolio and Get In Touch
-1.7 Inital READme Draft
-1.8 Bottom Hover for Project Details
-1.9 Small Project Photo Add
-1.10 Featured product Section Add
-1.12 Link Function to Nav Bar
+1.7 Spacing and text to About Me
+1.8 Add Links to Get in Touch
+1.9 Inital READme Draft
+1.10 Bottom Hover for Project Details
+1.11 Small Project Photo Add
+1.12 Featured product Section Add
+1.13 Link Function to Nav Bar
+1.14 READme details
+1.15 Outline for resposiveness
+1.16 Clickable photo links to GITHUB
+1.17 Adjust header display 980px
+1.18 CSS variables for color palette
+1.19 CSS consolidate for small project section
+1.20 CSS consolidate for large project section
+1.21 Project title box
+1.22 Adjust small project section
+1.23 Intial Responsiveness Changes
+1.24 Update project photos to logos
+1.25 Clean up formatting
+1.26 Nav review repair
+1.27 Hover cleanup
+1.28 Add responsiveness
+
+
 
 
 

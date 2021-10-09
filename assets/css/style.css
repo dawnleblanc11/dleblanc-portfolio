@@ -194,7 +194,9 @@ p {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-  }
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
   
   /* Project Detail Text */
   .projectdetailbox .projectdetailtext {
@@ -210,7 +212,8 @@ p {
   .projectdetailbox {
       font-size: 14px;
       font-style: italic;
-      padding-left: 80px;
+      padding-left: 60px;
+      padding-bottom: 5px;;
   }
    .projectdetailtext{
     /* Position the Project Detail Text to Bottom */
