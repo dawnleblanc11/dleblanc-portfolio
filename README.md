@@ -1,7 +1,7 @@
 # dleblanc-portfolio
 
 # Project Title: Dawn LeBlanc's Project Portfolio
-
+![Dawn postfolio](assets/images/DLeBlancPortfo.png)
 ## Description
 Contains background information about Dawn Leblanc with a selection from of her portfolio
 
@@ -57,13 +57,14 @@ All verification of usage was completed on a Google Chrome browser.
 1.26 Nav review repair
 1.27 Hover cleanup
 1.28 Add responsiveness
-
-
-
-
-
+1.30 Final Portfolio Links Added
+1.31 Background Covering Screen Fix
+1.32 Clean up responsiveness spacing
+1.33 Adjust avatar breakpoints
+1.34 Final Readme updates
+1.35 Add final screenshot photo to READme
 2.0 Final Project Submission
 ## License
 N/A
 ## Acknowledgements
-Photo Credits
+Photo Credits: https://unsplash.com/@christoffere
