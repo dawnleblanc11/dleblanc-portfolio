@@ -14,6 +14,7 @@
 
 body {
     font-family: var(--favoritefont);
+    background-color: var(--base-color);
 }
     
 /* Header and Nav Style Start*/
@@ -262,17 +263,13 @@ footer ul li a:link, footer ul li a:visited {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  .main-page-wrapper {
-      background-color: green;
     /* placeholder if needed looks ok now */
   }
-}
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-    .main-page-wrapper { 
-        background-color: orange;
+
     /*shrink large project to a bit*/
-    }
     .largeproject img {
         height: 325px;
         width: 325px;
@@ -281,19 +278,15 @@ footer ul li a:link, footer ul li a:visited {
     .bodyavatar{
         display:none;
     }
-}
     
     .largeproject h2 {
         font-size: 30px;
         min-width: 250px;
     }
-    }
 }
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .main-page-wrapper { 
-        background-color: yellow;
-    }
     /*remove large image and my avatar for mobile*/
     .hero img{
         display:none;
