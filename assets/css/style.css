@@ -1,314 +1,328 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /*CSS variables for color palette and fonts*/
 :root {
-    --base-color: seashell;
-    --accent-color: #2a607c;
-    --highlight-color:  rgb(190, 156, 98);
-    --favoritefont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    --secondfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  --base-color: seashell;
+  --accent-color: #2a607c;
+  --highlight-color: rgb(190, 156, 98);
+  --favoritefont: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  --secondfont: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    "sans-serif";
 }
 
 body {
-    font-family: var(--favoritefont);
-    background-color: var(--base-color);
+  font-family: var(--favoritefont);
+  background-color: var(--base-color);
 }
-    
+
 /* Header and Nav Style Start*/
 header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position:-webkit-sticky;
-    position: sticky;
-    padding: 20px 35px;
-    background-color: var(--accent-color);
-    color:var(--base-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 20px 35px;
+  background-color: var(--accent-color);
 }
 
 header h1 {
-    font-size: 48px;
+  font-size: 48px;
+  color: var(--base-color);
 }
 
-header nav ul{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-    padding-top: 25px;
-    margin-right: 5px;
-    font-family: var(--secondfont);
-    font-size: 20px;
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding-top: 25px;
+  margin-right: 5px;
+  font-family: var(--secondfont);
+  font-size: 20px;
 }
 
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav ul li {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 header nav ul li a {
-    color: var(--base-color);
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--base-color);
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 /* Header and Nav Style End*/
 
 /* Image Section with Subtitle Style Start */
 
 .hero {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
+}
+
+.hero img {
+  height: 400px;
+  width: 2000px;
 }
 
 .subtitle {
-    position: absolute;
-    font-weight:900;
-    font-size: larger;
-    align-self: center;
-    margin-left: 50px;
-    color: var(--highlight-color);
+  position: absolute;
+  font-weight: 900;
+  font-size: larger;
+  align-self: center;
+  margin-left: 50px;
+  color: var(--highlight-color);
 }
 /* Image Section with Subtitle Style End  */
 
 /* Main Page Styling Start Used in Multiple Sections on main page*/
 .main-page-wrapper {
-    margin: 0;
-    background-color: seashell;
-    display: flex;
+  margin: 0;
+  display: flex;
 }
 
 .titlecolumn {
-    flex: 0 0 175px;
+  flex: 0 0 175px;
 }
 
 .titlecolumn h1 {
-    font-weight: bolder;
-    color: var(--accent-color);
-    padding: 20px 35px 100px 35px;
+  font-weight: bolder;
+  color: var(--accent-color);
+  padding: 20px 35px 100px 35px;
 }
 
 .bodycolumn {
-    border-left: 5px solid var(--accent-color);
-    flex-wrap: wrap;
-    font-size: 24px;
-    font-weight: bolder;
-    padding: 20px 35px 100px 35px;
-    color: var(--accent-color);
+  border-left: 5px solid var(--accent-color);
+  flex-wrap: wrap;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 35px 35px 35px 35px;
+  color: var(--accent-color);
+}
+.bodycolumn h1 {
+  margin-bottom: 40px;
+  font-size: 28px;
 }
 /* Main Page Styling End Used in Multiple Sections on main page*/
 
 /* About me/ Avatar/ Text Start Style Start */
 .bodycolumn p {
-    font-size: 16px;
-    min-width: 300px;
+  font-size: 16px;
+  min-width: 300px;
 }
 
-.bodyavatar img{
-    border-radius: 3rem; /*created curved edges*/
-    border:2px solid var(--accent-color);
-    margin: 10px 10px 10px 10px;
-    opacity: 0.7; /*added opacity to soften avatar image*/
+.bodyavatar img {
+  border-radius: 3rem; /*created curved edges*/
+  border: 2px solid var(--accent-color);
+  margin: 10px 10px 10px 10px;
+  opacity: 0.7; /*added opacity to soften avatar image*/
 }
 /* About me/ Avatar/ Text Start Stlye End */
 
 /* Featured Project Category Style Start */
 .largeprojects {
-    display: flex;
-    min-height: 300px;
-    flex-wrap: wrap;
-    font-size: 20px;
-    color: var(--accent-color);
+  display: flex;
+  min-height: 300px;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: space-around;
+  color: var(--accent-color);
 }
 
 .largeproject img {
-    height: 425px;
-    width: = 425px;
-    margin: 20px 20px 20px 20px;
-    border-radius: 1rem; /*created curved edges*/
+  height: 425px;
+  width: = 425px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 1rem; /*created curved edges*/
 }
 
 .largeproject h2 {
-    font-size: 40px;
-    padding: 5px 5px 5px 5px;
-    background: var(--base-color);
-    min-width: 250px;
+  font-size: 40px;
+  padding: 5px 5px 5px 5px;
+  min-width: 250px;
 }
 
-
 .largeproject {
-    background-color: var(--highlight-color);
-    border-radius: 1rem; /*created curved edges*/
-    border:2px solid var(--accent-color);
-    flex: 4;
+  background-color: var(--highlight-color);
+  border-radius: 1rem; /*created curved edges*/
+  border: 2px solid var(--accent-color);
+  flex: 4;
 }
 /* Featured Project Category Style End */
 
 /* Smaller Project Listings Style Start */
 
 .smallprojects {
-    width:100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .smallproject img {
-    height: auto;
-    width: 25%;
-    margin: 20px 20px 20px 20px;
-    height: 250px;
-    width: 250px;
-    border-radius: 1rem; /*created curved edges*/
-    }
-    
+  height: auto;
+  width: 25%;
+  margin: 20px 20px 20px 20px;
+  height: 250px;
+  width: 250px;
+  border-radius: 1rem; /*created curved edges*/
+}
+
 .smallproject h2 {
-        font-size: 30px;
-        padding: 5px 5px 5px 5px;
-        background: var(--base-color);
-        min-width: 250px;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+  min-width: 250px;
 }
 
 .smallproject {
-    background-color: var(--highlight-color);
-    border-radius: 1rem; /*created curved edges*/
-    border:2px solid var(--accent-color);
-    margin: 10px;
-    flex: 2;
+  background-color: var(--highlight-color);
+  border-radius: 1rem; /*created curved edges*/
+  border: 2px solid var(--accent-color);
+  margin: 10px;
+  flex: 2;
 }
-
 
 /* Smaller Project Listings Style End */
 
 /* Hover text with project details from small and large projects */
 .projectdetailbox {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-    margin-bottom: 5px;
-    margin-left: 40px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  margin-bottom: 5px;
+  margin-left: 40px;
 }
-  
-  /* Project Detail Text */
-  .projectdetailbox .projectdetailtext {
-    visibility: hidden;
-    width: 120px;
-    background-color:var(--accent-color);
-    color: var(--base-color);
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    font-size: 16px;
-  }
-  .projectdetailbox {
-      font-size: 14px;
-      font-style: italic;
-      padding-left: 60px;
-      padding-bottom: 5px;;
-  }
-   .projectdetailtext{
-    /* Position the Project Detail Text to Bottom */
-    position: absolute;
-    z-index: 1;
-    width: 120px;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  /* Show the Project Detail text when you mouse over the Project Detail container */
-  .projectdetailbox:hover .projectdetailtext {
-    visibility: visible;
-  }
+
+/* Project Detail Text */
+.projectdetailbox .projectdetailtext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--accent-color);
+  color: var(--base-color);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.projectdetailbox {
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 60px;
+  padding-bottom: 5px;
+}
+.projectdetailtext {
+  /* Position the Project Detail Text to Bottom */
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the Project Detail text when you mouse over the Project Detail container */
+.projectdetailbox:hover .projectdetailtext {
+  visibility: visible;
+}
 /* Get In Touch Style Start */
-footer li{
-    color:var(--accent-color);
-    text-decoration-line: underline;
+footer li {
+  color: var(--accent-color);
+  text-decoration-line: underline;
 }
 
-footer ul{
-    min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
+footer ul {
+  min-width: 500px;
+  list-style: none;
+  padding-top: 20px;
 }
 
-footer ul li{
-    display: inline;
-    margin: 20px;
+footer ul li {
+  display: inline;
+  margin: 20px;
 }
 /*change links in Get In Touch when hover*/
-footer ul li a:link, footer ul li a:visited {
-    color: var(--accent-color);
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: underline;
-    display: inline-block;
-  }
-  
-  footer ul li a:hover, footer ul li a:active {
-    background-color:var(--highlight-color);
-  }
+footer ul li a:link,
+footer ul li a:visited {
+  color: var(--accent-color);
+  padding: 15px 25px;
+  /*  text-align: center;*/
+  text-decoration: underline;
+  display: inline-block;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+  background-color: var(--highlight-color);
+}
 
 /* Get in Touch Style End */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    /* placeholder if needed looks ok now */
+  /* placeholder if needed looks ok now */
+  .largeproject img {
+    height: 325px;
+    width: 325px;
   }
+  
+  .largeproject h2 {
+    font-size: 30px;
+    min-width: 250px;
+  }
+}
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  /*shrink large project to a bit*/
+  .largeproject img {
+    height: 325px;
+    width: 325px;
+  }
+  /*remove avatar */
+  .bodyavatar {
+    display: none;
+  }
 
-    /*shrink large project to a bit*/
-    .largeproject img {
-        height: 325px;
-        width: 325px;
-    }
-    /*remove avatar */
-    .bodyavatar{
-        display:none;
-    }
-    
-    .largeproject h2 {
-        font-size: 30px;
-        min-width: 250px;
-    }
+  .largeproject h2 {
+    font-size: 30px;
+    min-width: 250px;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    /*remove large image and my avatar for mobile*/
-    .hero img{
-        display:none;
-    }
-    .hero .subtitle {
-        display:none;
-    }
-    .bodyavatar img{
-        display:none;
-    }
-    /*shrink large project to small project size for mobile*/
-    
-    .largeproject img {
-        height: 250px;
-        width: 250px;
-    }
-    
-    .largeproject h2 {
-        font-size: 30px;
-        min-width: 250px;
-    }
+  /*remove large image and my avatar for mobile*/
+  .hero img {
+    display: none;
+  }
+  .hero .subtitle {
+    display: none;
+  }
+  .bodyavatar img {
+    display: none;
+  }
+  /*shrink large project to small project size for mobile*/
+
+  .largeproject img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .largeproject h2 {
+    font-size: 30px;
+    min-width: 250px;
+  }
 }
-
-
- 
