@@ -124,6 +124,7 @@ p {
 }
 
 .bodyavatar img {
+  width: 200px;
   border-radius: 3rem; /*created curved edges*/
   border: 2px solid var(--accent-color);
   margin: 10px 10px 10px 10px;
@@ -277,7 +278,7 @@ footer ul li a:active {
     height: 325px;
     width: 325px;
   }
-  
+
   .largeproject h2 {
     font-size: 30px;
     min-width: 250px;
@@ -291,9 +292,8 @@ footer ul li a:active {
     height: 325px;
     width: 325px;
   }
-  /*remove avatar */
-  .bodyavatar {
-    display: none;
+  .bodyavatar img {
+    width: 125px;
   }
 
   .largeproject h2 {
