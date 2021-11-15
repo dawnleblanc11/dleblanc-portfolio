@@ -1,7 +1,7 @@
 # dleblanc-portfolio
 
 # Project Title: Dawn LeBlanc's Project Portfolio
-![Dawn postfolio](assets/images/DLeBlancPortfo.png)
+![Dawn portfolio](assets/images/https://github.com/dawnleblanc11/dleblanc-portfolio/blob/main/assets/images/D%20LeBlanc%20Portfo.png)
 ## Description
 Contains background information about Dawn Leblanc with a selection from of her portfolio
 
