@@ -1,9 +1,9 @@
 # dleblanc-portfolio
 
 # Project Title: Dawn LeBlanc's Project Portfolio
-![Dawn postfolio](assets/images/DLeBlancPortfo.png)
+![Dawn portfolio](assets/images/DLeBlancPortfo.png)
 ## Description
-Contains background information about Dawn Leblanc with a selection from of her portfolio
+Contains background information about Dawn LeBlanc with a selection from of her portfolio
 
 **features**
  * Basic HTML using semantic elements
