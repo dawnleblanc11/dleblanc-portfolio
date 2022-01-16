@@ -65,6 +65,7 @@ All verification of usage was completed on a Google Chrome browser.
 1.35 Add final screenshot photo to READme
 2.0 Final Project Submission
 2.1 Added mARTY application
+2.2 Added BeachBlog
 ## License
 N/A
 ## Acknowledgements
